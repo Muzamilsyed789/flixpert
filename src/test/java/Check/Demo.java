@@ -24,9 +24,6 @@ public void Agoda() {
 	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[contains(text(),'Take me')]/following-sibling::button[contains(text(),'No thanks')]"))));
 	driver.findElement(By.xpath("//*[contains(text(),'Take me')]/following-sibling::button[contains(text(),'No thanks')]")).click();
 	
-//	driver.findElement(By.xpath("//input[@id='textInput']")).click();
-//	driver.findElement(By.xpath("//div[@class='sc-hiSbYr daxpJ'")).click();
-//	driver.findElement(By.xpath("//div[@class='SearchBoxTextDescription__title']")).click();
-	
+
 }
 }
