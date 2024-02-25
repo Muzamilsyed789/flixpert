@@ -23,7 +23,7 @@ public void Agoda() {
 	
 	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[contains(text(),'Take me')]/following-sibling::button[contains(text(),'No thanks')]"))));
 	driver.findElement(By.xpath("//*[contains(text(),'Take me')]/following-sibling::button[contains(text(),'No thanks')]")).click();
-	
+	driver.manage().window().minimize();
 
 }
 }
